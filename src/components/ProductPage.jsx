@@ -22,11 +22,9 @@ function ProductPage() {
     let params = useParams();
 
     const isValid = products?.some(item => String(item.id) === String(params.productId));
-    console.log(isValid);
     if (!isValid) {
       return <Navigate to="/not-found" replace />;
     }
-    console.log(params)
     const product = products[params.productId - 1];
 
   return (

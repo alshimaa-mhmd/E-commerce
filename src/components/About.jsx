@@ -1,6 +1,6 @@
 import React from 'react'
 import sideImage from '../assets/Side Image.png'
-import service1 from '../assets/services2-5.png'
+import service1 from '../assets/services25.png'
 import service2 from '../assets/services-3.png'
 import service3 from '../assets/services-4.png'
 import service4 from '../assets/services-2.png'

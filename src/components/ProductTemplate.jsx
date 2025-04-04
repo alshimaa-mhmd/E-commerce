@@ -10,10 +10,8 @@ function ProductTemplate({product, seen = true}) {
     const { addToWishlist, addToCart, removeFromWishlist,  wishlist } = useContext(ProductsContext);
     const oldPrice =( product?.price / ( 1 - (product?.discountPercentage / 100))).toFixed(2);
     const [isHovered, setIsHovered] = useState(false);
-    // console.log(product)
 
     const inWishlist = wishlist.some(item => item.id === product?.id);
-    console.log(inWishlist);
   return (
     <div className='min-w-[270px] relative max-w-[272px] h-[350px] p-0 flex flex-col items-start gap-[30px] text-[16px] leading-[24px] transition-all' onMouseOver={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
         <div className='w-full h-[270px] bg-[#F5F5F5] flex items-start justify-center relative'>
@@ -32,7 +30,7 @@ function ProductTemplate({product, seen = true}) {
             {inWishlist ? 
                 <button onClick={()=>removeFromWishlist(product?.id)} className='cursor-pointer'>
                     <svg class="w-6 h-6 text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
                     </svg>
                 </button> :  
                 <button className='rounded-full bg-[#FFFFFF] w-[34px] h-[34px] flex items-center justify-center cursor-pointer' onClick={() =>

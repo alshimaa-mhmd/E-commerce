@@ -94,7 +94,6 @@ function App() {
 
   }, [])
 
-  console.log(products[1])
   return (
     <>
 
