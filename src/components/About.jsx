@@ -1,15 +1,14 @@
 import React from 'react'
 import sideImage from '../assets/Side Image.png'
-import service1 from '../assets/services25.png'
-import service2 from '../assets/services-3.png'
-import service3 from '../assets/services-4.png'
-import service4 from '../assets/services-2.png'
+import service1 from '../assets/Services25.png'
+import service2 from '../assets/Services-3.png'
+import service3 from '../assets/Services-4.png'
+import service4 from '../assets/Services-2.png'
 import person1 from '../assets/Frame 874.png'
 import person2 from '../assets/Frame 875.png'
 import person3 from '../assets/Frame 876.png'
-import service6 from '../assets/services-1.png'
-import service7 from '../assets/services-2.png'
-import service5 from '../assets/services.png'
+import service6 from '../assets/Services-1.png'
+import service5 from '../assets/Services.png'
 function About() {
 const sales = [
   {
@@ -69,7 +68,7 @@ const features = [
     {
       title: 'MONEY BACK GUARANTEE',
       description: 'We reurn money within 30 days',
-      icon : service7,
+      icon : service2,
     }
   ];
 
