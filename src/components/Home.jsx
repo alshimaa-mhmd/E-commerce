@@ -13,7 +13,7 @@ import icon1 from '../assets/Category-CellPhone.png';
 import icon2 from '../assets/Category-Computer.png';
 import icon3 from '../assets/Category-SmartWatch.png';
 import icon4 from '../assets/Category-Camera.png';
-import icon5 from '../assets/Category-HeadPhone.png';
+import icon5 from '../assets/Category-Headphone.png';
 import icon6 from '../assets/Category-Gamepad.png';
 import service1 from '../assets/services.png'
 import service2 from '../assets/services-1.png'
