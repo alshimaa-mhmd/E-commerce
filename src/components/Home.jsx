@@ -15,9 +15,9 @@ import icon3 from '../assets/Category-SmartWatch.png';
 import icon4 from '../assets/Category-Camera.png';
 import icon5 from '../assets/Category-Headphone.png';
 import icon6 from '../assets/Category-Gamepad.png';
-import service1 from '../assets/services.png'
-import service2 from '../assets/services-1.png'
-import service3 from '../assets/services-2.png'
+import service1 from '../assets/Services.png'
+import service2 from '../assets/Services-1.png'
+import service3 from '../assets/Services-2.png'
 import up from '../assets/icons_arrow-up.png'
 
 import ProductsContext from './ProductsContext'
